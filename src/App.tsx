@@ -4,10 +4,10 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import Index from "./pages/Index";
-import Services from "./pages/Services";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Index from "./pages/Home/Index";
+import Services from "./pages/Services/Services";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
